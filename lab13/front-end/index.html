@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas App</title>
+  <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body >
+
+  <div class="main">
+    <div class="button-container">
+      
+      <input type="number" id="nota" name="name" required minlength="4" maxlength="8" size="10" />
+      <button onclick="orquestador()">Mostrar Notas</button>
+      
+      <input type="number" id="agregar-nota" name="name" required minlength="4" maxlength="8" size="10" />
+      <button onclick="addNote()">Agregar Nota</button>
+
+    </div>
+  
+    <div id="notes-container">
+      <h1>Notas</h1>
+    </div>
+
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
